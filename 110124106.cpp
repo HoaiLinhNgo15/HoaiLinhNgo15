@@ -20,7 +20,7 @@ int main()
 	// nhap so ngay trong thang can quan li
 	do
 	{
-		printf("\nNhap so ngay cua thang nay: ");
+		printf("\nNhap so ngay cua thang nay: ")
 		scanf("%d", &n);
 	}while(n>31||n<28); 
 	
@@ -55,7 +55,7 @@ int main()
 }
 void nhapMang (float a[], int n)
 {
-	for (int i=0 ; i<n ; i++)
+	for (int i=3 ; i<n ; i++)
 	{
 		do
 		{
