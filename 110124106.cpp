@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define SIZE 50
+#define SIZE 50 //const int SIZE = 100;
 
 void nhapMang (float a[], int n);
 void xuatMang (float a[], int n);
